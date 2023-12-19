@@ -63,26 +63,13 @@
     font-weight: 100;
     line-height: 25px;
 }
-.content code{
-    background: rgb(177, 177, 177);
-    padding: 2px 5px;
-    border-radius: 5px;
-    color: #27445C;
-}
-button{
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid #bfab73;
-    background: transparent;
+
+.intro-section a {
     color: #bfab73;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
+    text-decoration: underline;
+    font-weight: bold;
 }
+
 span{
     background: #27445C;
     height: 100%;
@@ -100,3 +87,26 @@ button:hover span{
 button:hover{
     border: none;
 }
+
+.intro-section h1 span,
+.intro-section p span {
+    display: inline-block;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.intro-section h1 span {
+    animation: fadeInUp 1s forwards;
+}
+
+.intro-section p span {
+    animation: fadeInUp 1s forwards 0.5s;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+

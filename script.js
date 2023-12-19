@@ -11,7 +11,7 @@ window.onload = function() {
     function typeWriter(element, text) {
         // Set the initial values
         var i = 0;
-        var speed = 50; // Adjust the typing speed as needed
+        var speed = 100; // Adjust the typing speed as needed
 
         // Clear any existing text in the element
         element.innerHTML = '';

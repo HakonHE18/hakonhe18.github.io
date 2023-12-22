@@ -6,7 +6,7 @@
 .banner{
     width:100%;
     height:100vh;
-    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/background.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -110,3 +110,58 @@ button:hover{
     }
 }
 
+.contacts-bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: transparent;
+    padding: 10px 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.contacts-bar li {
+    margin: 5 0px;
+}
+
+.contacts-bar a {
+    text-decoration: none; /* Added for consistency */
+}
+
+.contacts-bar a i {
+    padding: 20px;
+    font-size: 40px;
+    width: 60px;
+    text-decoration: none;
+    margin: 15px 5px;
+    color: #fff; /* Default icon color */
+}
+
+.contacts-bar a i:hover {
+    opacity: 0.75;
+}
+
+.contacts-bar a .fa-linkedin {
+    background: #007bb5;
+}
+
+.contacts-bar a .fa-facebook {
+    background: #3b5998;
+}
+
+.contacts-bar a .fa-envelope {
+    background:  #3498db;
+}
+
+.contacts-bar a .fa-github {
+    background: #333;
+}

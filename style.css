@@ -13,7 +13,7 @@
 }
 
 .navbar {
-    width: 85%;
+    width: 100%;
     margin: auto;
     padding: 1vw 0;
     display: flex;
@@ -56,12 +56,13 @@
 }
 
 .content {
-    width: 100%;
+    width: 65%;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    text-align: center;
+    text-align: left;
     color: #bfab73;
+    margin-left: 35%;
 }
 
 .content h1 {
@@ -70,8 +71,9 @@
 }
 
 .content p {
-    margin: 1vw;
-    font-weight: 100;
+    margin-top: 0.5vw;
+    font-size: 1.25vw;
+    font_weight: 100;
     line-height: 1vw;
 }
 
@@ -158,12 +160,12 @@ button:hover {
 .contact-section h2::after {
     content: "";
     display: block;
-    width: 110%;
+    width: 200%;
     height: 0.15vw;
     background-color: #333;
     position: absolute;
     bottom: -5%;
-    left: -5%;
+    left: -50%;
 }
 
 .contacts-bar {

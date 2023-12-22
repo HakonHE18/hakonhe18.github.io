@@ -5,7 +5,7 @@ window.onload = function() {
     var paragraphElement = document.querySelector('.intro-section p');
 
     // Call the function to simulate typing effect
-    typeWriter(titleElement, 'Hi 👋 I\'m Hakon');
+    typeWriter(titleElement, 'Hi 👋 I\'m Hakon.');
     typeWriter(paragraphElement, 'I\'m a bachelor Data Science Student at ');
 
     function typeWriter(element, text) {
@@ -30,6 +30,7 @@ window.onload = function() {
                 if (element === paragraphElement) {
                     // Append the link with inline styling for bold text
                     element.innerHTML += ' <a href="https://itu.dk/" target="_blank" style="font-weight: bold;">ITU</a>';
+                    element.innerHTML += '.';
                 }
             }
         }

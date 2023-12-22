@@ -22,7 +22,7 @@
 }
 
 .logo {
-    width: 7vw;
+    width: 10vw;
     cursor: pointer;
 }
 
@@ -37,6 +37,7 @@
     text-decoration: none;
     color: #bfab73;
     text-transform: uppercase;
+    font-size: 0.75vw
 }
 
 .navbar ul li::after {

@@ -15,3 +15,9 @@ document.getElementById("submitPassword").addEventListener("click", function() {
         alert("Incorrect password. Please try again.");
     }
 });
+document.getElementById("resumeLink").addEventListener("click", function(event) {
+    event.preventDefault();
+    document.getElementById("passwordModal").style.display = "block";
+    document.getElementById("passwordInput").value = ""; // Clear the input field
+});
+

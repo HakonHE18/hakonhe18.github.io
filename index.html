@@ -14,7 +14,7 @@
             <a href="index.html"> <img src="images/logo.png" class="logo"> </a>
             <ul>
                 <li><a href="aboutme.html">About me</a></li>  
-                <li><a href="cv/cv.pdf">Resume</a></li>
+                <li><a href="#" id="resumeLink">Resume</a></li>
             </ul>
         </div>
     </div>
@@ -31,15 +31,23 @@
         <div class="contacts-bar">
             <ul>
                 <li><a href="https://www.facebook.com/hakon.eriksen.319/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="index.html" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/hakon-eriksen-69858a2ba/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 <li><a href="https://github.com/HakonHE18" target="_blank"><i class="fa fa-github"></i></a></li>
                 <li><a href="mailto:hakonhe@icloud.com"><i class="fa fa-envelope"></i></a></li>
             </ul>
         </div>
     </div>
 
-
+    <div id="passwordModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2></h2>
+            <input type="password" id="passwordInput" placeholder="Password">
+            <button id="submitPassword">Submit</button>
+        </div>
+    </div>
 
     <script src="script.js"></script>
+    <script src="password.js"></script>
 </body>
 </html>
